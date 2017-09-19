@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>富士通のワークスタイル変革 - FMWORLD.NET（法人） : 富士通</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="copyright" content="Copyright (C) FUJITSU">
+<meta name="keywords" content="富士通,ワークスタイル変革,デバイス,ソリューション,セキュリティ">
+<meta name="description" content="「ワークスタイル変革」をはじめよう。すべての働く人に、便利と安心と、その先の笑顔を。富士通の一歩進んだ、ワークスタイルがここに。当社のサービスを使って見直しを図ってみませんか？">
+
+<link rel="canonical" href="http://www.fmworld.net/biz/workstyle_henkaku/question/index.html">
+<meta name="format-detection" content="telephone=no">
+
+<link rel="stylesheet" href="/biz/workstyle_henkaku/css/base.css">
+<link rel="stylesheet" href="/biz/workstyle_henkaku/css/cssreset-min.css">
+<link rel="stylesheet" href="/biz/workstyle_henkaku/css/pc_modal_style.css" media="screen and (min-width: 751px)">
+<link rel="stylesheet" href="/biz/workstyle_henkaku/css/sp_modal_style.css" media="screen and (max-width: 750px)">
+
+<!--[if lte IE 8]>
+<script src="/biz/workstyle_henkaku/common/js/html5shiv-printshiv.js" charset="UTF-8"></script>
+<script src="/biz/workstyle_henkaku/common/js/selectivizr-min.js" charset="UTF-8"></script>
+<![endif]-->
+
+</head>
+<body>
+	<div class="box">
+		<img src="/biz/workstyle_henkaku/images/question/mv.jpg" alt="富士通の「ワークスタイル変革」">
+		<div class="inner">
+			<p class="txt">いつも「FUJITSU Mobility &amp; Security」を<br class="pc_br">ご利用いただきまして、ありがとうございます。<br>
+			これからも皆様の「働き方改革」により役立つ情報サイトであるために<br class="pc_br">最大5問の簡単なアンケートにご協力ください。</p>
+			<!--<div class="btn"><a href=""><img src="images/btn.gif" alt="アンケートに答える"></a></div>--->
+			<div class="btn">
+				<script>
+				var acp = document.createElement('script'); acp.type = 'text/javascript'; acp.async = true;
+				acp.src = 'https://api.ac-plus.com/acp.js';
+				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(acp, s);
+				</script>
+				<div class="acp-placeholder" data-acp-custom-cookie1="ismub" data-acp-project-id="krYBxxBtZf"></div>
+			</div>
+		</div>
+	</div>
+	
+<script type="text/javascript" src="//mediaweaver.jp/oo/rin.js"></script>
+<!-- 集計用 {-->
+<script src="/biz/workstyle_henkaku/common/js/analytics.js"></script>
+<!-- 集計用 {-->
+</body>
+</html>

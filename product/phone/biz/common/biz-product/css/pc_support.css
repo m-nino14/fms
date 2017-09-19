@@ -1,0 +1,67 @@
+/*****************************************************-
+CSS Document : PC用
+- ****************************************************/
+
+/*===========================================================================
+ phone-contents
+===========================================================================*/
+.phone-contents.support-contents ul.support-list{ margin:0 auto 10px; overflow:hidden; clear:both;}
+.phone-contents.support-contents ul.support-list li{ float:left; text-align:left; list-style:disc outside; margin-top:30px; margin-left:20px; width:300px;}
+.phone-contents.support-contents .phone-contents-dtl.linenone{ padding-bottom:120px !important;}
+
+.phone-contents .mobile-col .item-list ul.model-list{ margin:0 auto 10px; overflow:hidden; clear:both;}
+.phone-contents .mobile-col .item-list ul.model-list li{ text-align:left; list-style:disc outside; margin-top:30px; margin-left:20px; width:140px;}
+
+.phone-contents.support-contents .page-ttl span { display:block; font-size:60% !important; padding-bottom:20px;}
+.phone-contents.support-contents .phone-contents-dtl .dtl-ttl { font-size: 184%; margin-bottom:40px;}
+
+.phone-contents .phone-contents-dtl .dtl-idt.support-cts{ width:100%;}
+.support-cts p { font-size:110%; margin-bottom:25px;}
+.support-cts p sub { font-size:75%; padding-left:5px; padding-right:5px; vertical-align:baseline;}
+
+.support-cts ul { list-style:disc; margin-left:15px;}
+
+.support-cts.faq-info { margin-left:20px;}
+.support-cts.faq-info p { margin-bottom:10px;}
+.support-cts.faq-info p:first-child { margin-top:20px;}
+.support-cts.faq-info img { vertical-align:middle;margin-left:1.5em;}
+
+
+.phone-contents .mobile-col .item-list ul.model-list.pdf-link li{ width:175px;}
+.btn-pdf-dl{}
+.btn-pdf-dl a  { width:175px; padding: 0; display:block; border:none; text-decoration:none;}
+.btn-pdf-dl a .txt { text-decoration: underline;}
+.btn-pdf-dl a .size { text-decoration:none;}
+.btn-pdf-dl a:hover { text-decoration:none;}
+.btn-pdf-dl a:hover .txt { text-decoration: none;}
+
+.btn-pdf-dl a .icn { margin-right:8px;}
+.phone-contents .mobile-col .item-list ul.pdf-link li.btn-pdf-dl a .wnrap { white-space:nowrap;}
+.phone-contents .mobile-col .item-list ul.pdf-link li.btn-pdf-dl a .wnrap img { vertical-align:middle;}
+.phone-contents .mobile-col .item-list ul.pdf-link li.btn-pdf-dl a .size { white-space:nowrap;}
+
+
+.phone-contents.support-contents table.standard.mcard { font-size:138%;}
+.phone-contents.support-contents table.standard.mcard .conceal { display:none;}
+.phone-contents.support-contents table.standard.mcard thead th { background:#d2d2d2;}
+.phone-contents.support-contents table.standard.mcard th { text-align:center; font-weight:normal;}
+.phone-contents.support-contents table.standard.mcard td { text-align:center;}
+
+.phone-contents .phone-contents-dtl.Category-nav{ border:none;}
+
+.Category-nav{ text-align:center;}
+.Category-nav a{ color:#ffffff; text-decoration:none; background-color: #606060; padding: 8px 0 6px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin:0 8px; display:block;}
+.Category-nav a:hover{ opacity:0.8;}
+.Category-nav nav{ margin-bottom:40px;}
+.Category-nav nav ul li{ display:inline-block; margin-bottom:30px; width:33%;}
+.Category-nav p a{ width:20em; margin:0 auto;}
+
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list.memory_card_ul li { padding-bottom: 10px;}
+
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list.memory_card_ul li ul.disc-list { margin: 0;}
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list.memory_card_ul li ul.disc-list li { padding-bottom:3px;}
+a img.w-icon { position:relative; top:-2px; margin-left:2px;margin-right:2px;}
+
+footer .ft-note .note-list li { margin-left:2.5em; text-indent:-2.5em;}
+
+

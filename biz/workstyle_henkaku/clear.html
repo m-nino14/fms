@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>無題ドキュメント</title>
+<script src="/biz/workstyle_henkaku/common/js/jquery-1.11.2.min.js" charset="UTF-8"></script>
+<script src="/biz/workstyle_henkaku/js/jquery.cookie.js" charset="UTF-8"></script>
+<script>
+	$(function() {
+		$('button').click(function(){
+			var visitCount = 0;
+			$.removeCookie('visitCount', {path: "/biz/workstyle_henkaku/"});
+		});
+	});
+</script>
+</head>
+
+<body>
+	<button type="button">cookieをクリア</button>
+</body>
+</html>

@@ -1,0 +1,447 @@
+/*****************************************************-
+CSS Document : SP用
+- ****************************************************/
+.page-sns {
+	margin-top: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.page-sns .inr {
+	float: right;
+}
+.page-sns p,
+.page-sns li,
+.page-sns ul {
+	float: left;
+}
+.page-sns p {
+	color: #888888;
+	font-size: 1.1rem;
+	padding-top: 7px;
+}
+.page-sns ul {
+	padding-left: 10px;
+}
+.page-sns li {
+	margin-left: 7px;
+}
+.page-sns li img {
+	width: 32px;
+	height: auto;	
+}
+.is_mouse .page-sns li.btn-ln {
+	display: none;
+}
+
+.btn-pdf-dl {
+	text-align: center;
+	font-size: 1.3rem;
+}
+.btn-pdf-dl a {
+	display: block;
+	line-height: 1.8;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid #b8b8b8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.btn-pdf-dl a .icn {
+	margin-right: 8px;
+}
+.btn-pdf-dl a .icn img {
+	width: 16px;
+	height: auto;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+}
+.btn-pdf-dl a:hover .icn img {
+	filter: none !important;
+	-moz-opacity: 1 !important;
+	opacity: 1 !important;
+}
+.btn-pdf-dl a .txt {
+	font-weight: bold;
+	text-decoration: none;
+}
+.btn-pdf-dl a .size {
+	color: #888888;
+}
+.btn-pdf-dl a:hover .txt {
+	text-decoration: underline;
+}
+
+
+/*===========================================================================
+ product-info
+===========================================================================*/
+.phone-contents .page-ttl {
+	text-align: center;
+	font-size: 3.3rem;
+	font-family: 'Roboto', "Hiragino Kaku Gothic Pro W3", "ヒラギノ角ゴ Pro W3", Verdana, Roboto, 'Droid Sans', Meiryo, 'ＭＳ Ｐゴシック', 'Hiragino Kaku Gothic ProN', sans-serif;
+	color: #d22626;
+	line-height: 1;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #d22626;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+.phone-contents .phone-contents-dtl {
+	border-bottom: 1px solid #d2d2d2;
+	padding-top: 35px;
+	padding-bottom: 40px;	
+}
+.phone-contents .phone-contents-dtl.linenone{
+	border-bottom:none;
+}
+.phone-contents .phone-contents-dtl .cts-inr {
+	padding-left: 0;
+	padding-right: 0;
+}
+.phone-contents .phone-contents-dtl .dtl-ttl {
+	line-height: 1.4;
+	font-size: 1.8rem;
+	text-align: center;
+	vertical-align: bottom;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.phone-contents .phone-contents-dtl .dtl-ttl span{
+	font-size: 1.5rem;
+}
+.phone-contents .phone-contents-dtl.dtl-ttl sub {
+	font-size: 0.9rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.phone-contents .phone-contents-dtl .dtl-heading01 {
+	text-align:left;
+	font-size: 1.5rem;
+	padding-left: 30px;
+	margin-top: 15px;
+	background: url(/product/phone/common/rnw2015/images/1/sp_icn_circle01.png) no-repeat 0.5em 0.3em;
+	background-size: 14px auto;
+	-webkit-background-size: 14px auto;
+}
+.phone-contents .phone-contents-dtl .dtl-heading01 sub {
+	font-size: 0.9rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.phone-contents .phone-contents-dtl .dtl-heading02 {
+	text-align:left;
+	font-size: 1.3rem;
+	padding-left: 25px;
+	margin-top: 15px;
+	background: url(/product/phone/common/rnw2015/images/1/sp_icn_circle02.png) no-repeat 0.5em 0.3em;
+	background-size: 12px auto;
+	-webkit-background-size: 12px auto;
+}
+.phone-contents .phone-contents-dtl .dtl-heading02 sub {
+	font-size: 0.9rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.phone-contents .phone-contents-dtl .img {
+	margin-top: 15px;
+}
+.phone-contents .phone-contents-dtl .img img {
+	width: 100%;
+	height: auto;
+}
+.phone-contents .phone-contents-dtl .dtl-icn {
+	float: right;
+	margin-top: 5px;
+}
+.phone-contents .phone-contents-dtl .dtl-icn li {
+	float: left;
+	margin-left: 8px;
+}
+.phone-contents .phone-contents-dtl .dtl-icn li img {
+	width: 30px;
+	height: auto;
+}
+.phone-contents .phone-contents-dtl .dtl-idt {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 10px;
+}
+
+.phone-contents .phone-contents-dtl .dtl-idt .txt {
+	margin-top: 10px;
+	font-size: 1.1rem;
+}
+.phone-contents .phone-contents-dtl .dtl-idt .txt sub {
+	font-size: 0.8rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.phone-contents .phone-contents-dtl .dtl-idt .txt:first-child {
+	margin-top: 7px;
+}
+
+.phone-contents .btn-sec .btn-pdf-dl {
+	margin-top: 12px;
+}
+
+.phone-contents .info-dtl .dtl-idt ul.disc-list,
+.phone-contents .boxGray,
+.phone-contents .parallelLine{
+	margin-top:15px;
+}
+.phone-contents .info-dtl .dtl-idt ul.disc-list li,
+.phone-contents .boxGray ul li,
+.phone-contents .parallelLine ul li{
+	padding:10px 20px;
+	border-bottom:solid 1px #bbbbbb;
+}
+.phone-contents .info-dtl .dtl-idt ul.disc-list li:first-child,
+.phone-contents .boxGray ul li:first-child,
+.phone-contents .parallelLine ul li:first-child{
+	border-top:solid 1px #bbbbbb;
+}
+
+
+.phone-contents table.standard{
+	margin-top:1.75em;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border: 1px solid #B8B8B8;
+	color: #000;
+}
+.phone-contents table.standard th,
+.phone-contents table.standard td{
+	padding:10px;
+	border-collapse: collapse;
+	color: #000;
+	border: 1px solid #AAA;
+	line-height: 1.6;
+}
+.phone-contents table.standard th{
+	background-color: #F2F2F2;
+}
+.phone-contents table.standard td img{
+	vertical-align:middle;
+}
+.phone-contents ul.img-list{
+	overflow:hidden;
+	margin:1.75em 10px;
+}
+.phone-contents ul.img-list li{
+	background:url(/product/phone/common/rnw2015/images/1/sp_icn_circle03.png) no-repeat left 0.1em;
+	background-size: 14px auto;
+	padding-left: 20px;
+	-webkit-background-size: 14px auto;
+	min-height:2em;
+}
+/* 別窓icon用 */
+a img.w-icon{
+	position:relative;
+	top:-2px;
+}
+
+
+
+/*===========================================================================
+ phone-contents lineup
+===========================================================================*/
+
+.phone-contents .mobile-col {
+	padding-top: 42px;
+	padding-bottom: 50px;
+}
+.phone-contents .mobile-col .lead {
+	text-align: center;
+	margin-top: 35px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.phone-contents .mobile-col .item-list {
+	text-align: center;
+}
+.phone-contents .mobile-col .item-list ul {
+	display: inline-block;
+}
+.phone-contents .mobile-col .item-list li {
+	display: inline-block;
+	width: 165px;
+	margin-top: 36px;
+	text-align: center;
+}
+.phone-contents .mobile-col .item-list li .cat {
+	display: table;
+	width: 100%;
+	font-size: 1.3rem;
+}
+.phone-contents .mobile-col .item-list li .cat span {
+	display: table-cell;
+	vertical-align: middle;
+}
+.phone-contents .mobile-col .item-list li:first-child .cat span,
+.phone-contents .mobile-col .item-list li:last-child .cat span {
+}
+.phone-contents .mobile-col .item-list li .img {
+}
+.phone-contents .mobile-col .item-list li .img img {
+	width: 100%;
+	height: auto;
+}
+.phone-contents .mobile-col .item-list li .name {
+	color: #888888;
+	font-size: 1rem;
+	margin-top: -2px;
+}
+.phone-contents .mobile-col .item-list li .btn {
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-top: 6px;
+}
+.phone-contents .mobile-col .item-list li .btn a {
+	line-height: 1.3;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	font-size: 1rem;
+	background-color: #d22626;
+	color: #FFF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+.phone-contents .mobile-col .item-list li .btn a:hover {
+	background-color: #ff0000;
+}
+.phone-contents .mobile-col .item-list li.item.del-col {
+	display:none;
+}
+
+.phone-contents .mobile-col .item-line-wrap{
+	margin-top:20px;
+}
+.phone-contents .mobile-col .item-list ul.more-list{
+	margin:0 auto 20px;
+}
+.phone-contents .mobile-col .item-list ul.more-list li{
+	list-style:none;
+	margin-top:15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
+.phone-contents .mobile-col .item-list  ul.more-list li a {
+	line-height: 1.3;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	font-size: 1rem;
+	background: #fcfcfc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border:solid 1px #cccccc;
+	text-decoration: none;
+	padding:10px 10px 9px;
+}
+
+.phone-contents .mobile-col .item-list .item .btn a:hover {
+	background-color: #ff0000;
+}
+.phone-contents .mobile-col .item-list .item-show{ display:none;}
+.phone-contents .mobile-col .item-list .item-show {
+	cursor: pointer;
+	background-color: #131313;
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 9px;
+	line-height: 1;
+	font-size: 1.1rem;
+	color: #FFF;
+	margin-top: 30px;
+}
+.phone-contents .mobile-col .item-list .item-show:hover {
+	background-color: #888888;	
+}
+.phone-contents .mobile-col .item-list .item-show span {
+	padding-left: 17px;
+	background: url(/product/phone/common/rnw2015/images/1/pc_icn_arw.png) no-repeat left center;
+}
+.phone-contents .mobile-col .item-hide {
+	overflow: hidden;	
+}
+.phone-contents .mobile-col .item-list .btn-pdf-dl {
+	margin-top: 25px;
+}
+
+
+/*===========================================================================
+ phone-contents topics(NewsList)
+===========================================================================*/
+.phone-contents .phone-contents-dtl.newslist-col .cts-inr {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.phone-contents .newslist-col .link-list-col {
+    margin-top: 12px;
+	margin-bottom:36px;
+}
+.phone-contents .phone-contents-dtl.NewsList-Category-nav{
+	padding-top:0;
+	border:none;
+}
+
+.NewsList-Category-nav{
+	text-align:center;
+}
+.NewsList-Category-nav a{
+	color:#ffffff;
+	text-decoration:none;
+	background-color: #606060;
+	padding: 8px 0 6px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin:0 8px;
+	display:block;
+}
+.NewsList-Category-nav a:hover{
+	opacity:0.8;
+}
+.NewsList-Category-nav nav{
+margin-bottom:10px;
+}
+.NewsList-Category-nav nav ul li{
+	display:inline-block;
+	margin-bottom:20px;
+	width:40%;
+}
+.NewsList-Category-nav nav ul li:nth-child(2n+1) a{
+	margin-left:0;
+
+}
+.NewsList-Category-nav nav ul li:nth-child(2n+0) a{
+	margin-right:0;
+}
+.NewsList-Category-nav p a{
+	margin:0 25px;
+}

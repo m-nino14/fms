@@ -1,0 +1,464 @@
+/*****************************************************-
+CSS Document : PC用
+- ****************************************************/
+.page-sns {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 13px;
+}
+.page-sns .inr {
+	float: right;
+}
+.page-sns p,
+.page-sns li,
+.page-sns ul {
+	float: left;
+}
+.page-sns p {
+	color: #888888;
+	font-size: 85%; /*11px*/
+	padding-top: 9px;
+}
+.page-sns ul {
+	padding-left: 10px;
+}
+.page-sns li {
+	margin-left: 6px;
+}
+.page-sns li img {
+	width: 32px;
+	height: auto;	
+}
+.is_mouse .page-sns li.btn-ln {
+	display: none;
+}
+
+
+.btn-pdf-dl {
+	text-align: center;
+}
+.btn-pdf-dl a {
+	display: inline-block;
+	width: 396px;
+	line-height: 1;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	border: 1px solid #b8b8b8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.btn-pdf-dl a .icn {
+	margin-right: 10px;
+}
+.btn-pdf-dl a .icn img {
+	width: 16px;
+	height: auto;
+}
+.btn-pdf-dl a:hover .icn img {
+	filter: none !important;
+	-moz-opacity: 1 !important;
+	opacity: 1 !important;
+}
+.btn-pdf-dl a .size {
+	color: #888888;
+}
+.btn-pdf-dl a:hover .txt {
+	text-decoration: underline;
+}
+
+
+/*===========================================================================
+ phone-contents
+===========================================================================*/
+.phone-contents .page-ttl {
+	text-align: center;
+	font-size: 385%; /*50px*/
+	font-family: 'Roboto', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "sans-serif";
+	color: #d22626;
+	line-height: 1;
+	margin-top: 75px;
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 15px;
+	border-bottom: 2px solid #d22626;
+}
+.phone-contents .phone-contents-dtl {
+	border-bottom: 1px solid #d2d2d2;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+.phone-contents .phone-contents-dtl.linenone{
+	border-bottom:none;
+}
+
+.phone-contents .phone-contents-dtl .dtl-ttl {
+	line-height: 1.5;
+	font-size: 231%; /*30px*/
+	text-align: center;
+	vertical-align: bottom;
+}
+.phone-contents .phone-contents-dtl .dtl-ttl span{
+	font-size: 80%;
+}
+.phone-contents .phone-contents-dtl .dtl-ttl sub {
+	font-size: 36.7%; /*11px;*/
+	vertical-align: middle;
+	display: inline-block;
+	padding-top: 6px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.phone-contents .phone-contents-dtl p.dtl-ttl{
+	margin-bottom:1em;
+}
+
+.phone-contents .phone-contents-dtl .dtl-heading01 {
+	font-size: 182%; /*24px*/
+	padding-left: 27px;
+	margin-top: 30px;
+	background: url(/product/phone/common/rnw2015/images/1/pc_icn_circle01.png) no-repeat left 0.3em;
+}
+.phone-contents .phone-contents-dtl .dtl-heading01 sub {
+	font-size: 38%; /*9px*/
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 5px;
+}
+.phone-contents .phone-contents-dtl .dtl-heading02 {
+	font-size: 138.5%; /*18px*/
+	padding-left: 25px;
+	margin-top: 30px;
+	background: url(/product/phone/common/rnw2015/images/1/pc_icn_circle02.png) no-repeat left 0.3em;
+}
+.phone-contents .phone-contents-dtl .dtl-heading02 sub {
+	font-size: 50%; /*9px*/
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 5px;
+}
+
+
+
+
+.phone-contents .phone-contents-dtl .img {
+	margin-top: 30px;
+	text-align:center;
+}
+.phone-contents .phone-contents-dtl .img  span.caption_text{
+	display:block;
+	text-align:left;
+}
+.phone-contents .phone-contents-dtl .dtl-icn {
+	float: right;
+	margin-top: 12px;
+}
+.phone-contents .phone-contents-dtl .dtl-icn li {
+	float: left;
+	margin-left: 17px;
+}
+.phone-contents .phone-contents-dtl .dtl-idt {
+	width: 680px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.phone-contents .phone-contents-dtl .dtl-idt .txt {
+	margin-top: 10px;
+}
+.phone-contents .phone-contents-dtl .dtl-idt .txt sub {
+	font-size: 69.5%; /*9px*/
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-top: 3px;
+}
+.phone-contents .phone-contents-dtl .dtl-idt .txt:first-child {
+	margin-top: 30px;
+}
+.phone-contents .btn-sec {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.phone-contents .btn-sec .btn-prev a span {
+	text-align: right;
+	background: url(/product/phone/common/rnw2015/images/1/pc_link_arw02.png) no-repeat left center;
+}
+.phone-contents .btn-sec .btn-pdf-dl {
+	margin-top: 42px;
+}
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list{
+	margin-top:15px;
+}
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list li{
+	list-style:disc;
+	padding:3px 10px 3px 0;
+	margin-left:20px;
+}
+.phone-contents .boxGray{
+	border: solid 1px #bbbbbb;
+	padding: 20px;
+	margin-top: 15px;
+}
+.phone-contents .boxGray ul,
+.phone-contents .parallelLine ul{
+	overflow: hidden;
+}
+.phone-contents .parallelLine ul{
+	margin-top: 10px;
+}
+.phone-contents .boxGray ul li,
+.phone-contents .parallelLine ul li{
+	list-style: disc;
+	float: left;
+	padding: 3px 10px 3px 0;
+	margin-left: 20px;
+	white-space: nowrap;
+}
+
+
+.phone-contents table.standard{
+	margin-top:1.75em;
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border: 1px solid #B8B8B8;
+	color: #000;
+}
+.phone-contents table.standard th,
+.phone-contents table.standard td{
+	padding:10px;
+	border-collapse: collapse;
+	color: #000;
+	border: 1px solid #AAA;
+	line-height: 1.6;
+}
+.phone-contents table.standard th{
+	background-color: #F2F2F2;
+}
+.phone-contents table.standard td img{
+	vertical-align:middle;
+}
+.phone-contents ul.img-list{
+	overflow:hidden;
+	margin:1.75em 0;
+}
+.phone-contents ul.img-list li{
+	background:url(/product/phone/common/rnw2015/images/1/pc_icn_circle03.png) no-repeat left 3px;
+	padding-left:15px;
+	display:block;
+	float:left;
+	width:310px;
+	min-height:2em;
+}
+/* 別窓icon用 */
+a img.w-icon{
+	position:relative;
+	top:-2px;
+}
+
+
+
+/*===========================================================================
+ phone-contents lineup
+===========================================================================*/
+
+.phone-contents .mobile-col {
+	padding-top: 60px;
+	padding-bottom: 80px;
+}
+.phone-contents .mobile-col .item-list {
+	width: 100%;
+	overflow: hidden;
+}
+.phone-contents .mobile-col .item-list ul {
+	margin-left: -27px;
+	margin-right: -27px;
+}
+.phone-contents .mobile-col .item-list ul.col5-center{
+	width:860px;
+	margin:0 auto;
+}
+.phone-contents .mobile-col .item-list ul.col4-center{
+	width:688px;
+	margin:0 auto;
+}
+.phone-contents .mobile-col .item-list ul.col3-center{
+	width:516px;
+	margin:0 auto;
+}
+.phone-contents .mobile-col .item-list ul.col2-center{
+	width:344px;
+	margin:0 auto;
+}
+.phone-contents .mobile-col .item-list ul.col1-center{
+	width:172px;
+	margin:0 auto;
+}
+.phone-contents .mobile-col .item-list li {
+	float: left;
+	width: 172px;
+	text-align: center;
+	margin-top: 55px;
+}
+.phone-contents .mobile-col .item-list li .cat {
+	display: table;
+	width: 100%;
+	font-size: 116%; /*15px*/
+}
+.phone-contents .mobile-col .item-list li .cat span {
+	display: table-cell;
+	vertical-align: middle;
+}
+.phone-contents .mobile-col .item-list li:first-child .cat span,
+.phone-contents .mobile-col .item-list li:last-child .cat span {
+	padding-left: 25px;
+	padding-right: 25px;
+}
+.phone-contents .mobile-col .item-list li .img {
+	margin-top: 30px;
+}
+.phone-contents .mobile-col .item-list li .img img {
+	width: 172px;
+	height: auto;
+}
+.phone-contents .mobile-col .item-list li .name {
+	color: #888888;
+	font-size: 85%; /*11px*/
+	line-height: 1.45;
+}
+.phone-contents .mobile-col .item-list li .btn {
+	padding-left: 27px;
+	padding-right: 27px;
+	margin-top: 12px;
+}
+.phone-contents .mobile-col .item-list li .btn a {
+	line-height: 1;
+	text-align: center;
+	display: block;
+	font-size: 85%; /*11px*/
+	padding: 11px 18px 9px;
+	background-color: #d22626;
+	color: #FFF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration: none;
+	position: relative;
+}
+.phone-contents .mobile-col .item-list li .btn a:hover {
+	background-color: #ff0000;
+}
+.phone-contents .mobile-col .item-list li.item.del-col {
+	display:none;
+}
+
+.phone-contents .mobile-col .item-line-wrap{
+	margin-top:20px;
+}
+.phone-contents .mobile-col .item-list ul.more-list{
+	margin:0 auto 10px;
+	overflow:hidden;
+	clear:both;
+}
+.phone-contents .mobile-col .item-list ul.more-list li{
+	text-align:left;
+	list-style:disc outside;
+	margin-top:20px;
+	margin-left:20px;
+	width:140px;
+}
+.phone-contents .mobile-col .item-list .item .btn a:hover {
+	background-color: #ff0000;
+}
+.phone-contents .mobile-col .item-list .item-show{ display:none;}
+.phone-contents .mobile-col .item-list .item-show {
+	cursor: pointer;
+	background-color: #131313;
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 9px;
+	line-height: 1;
+	font-size: 85%; /*11px*/
+	color: #FFF;
+}
+.phone-contents .mobile-col .item-list .item-show:hover {
+	background-color: #888888;	
+}
+.phone-contents .mobile-col .item-list .item-show span {
+	padding-left: 17px;
+	background: url(/product/phone/common/rnw2015/images/1/pc_icn_arw.png) no-repeat left center;
+}
+.phone-contents .mobile-col .item-list .btn-pdf-dl {
+	margin-top: 80px;
+	text-align: center;	
+}
+.phone-contents .mobile-col .item-hide {
+	overflow: hidden;	
+}
+
+
+
+.phone-contents .mobile-col .carrier-link {
+	text-align: center;
+	margin-top: 50px;
+}
+.phone-contents .mobile-col .carrier-link li {
+	display: inline;
+}
+.phone-contents .mobile-col .carrier-link li a {
+	margin-left: 10px;
+	margin-right: 15px;
+}
+
+
+/*===========================================================================
+ phone-contents topics(NewsList)
+===========================================================================*/
+.phone-contents .phone-contents-dtl.newslist-col .cts-inr {
+}
+
+.phone-contents .newslist-col .link-list-col {
+    padding-bottom:30px;
+}
+
+.phone-contents .phone-contents-dtl.NewsList-Category-nav{
+	padding-top:0;
+	border:none;
+}
+
+.NewsList-Category-nav{
+	text-align:center;
+}
+.NewsList-Category-nav a{
+	color:#ffffff;
+	text-decoration:none;
+	background-color: #606060;
+	padding: 8px 0 6px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	margin:0 8px;
+	display:block;
+	width:170px;
+}
+.NewsList-Category-nav a:hover{
+	opacity:0.8;
+}
+.NewsList-Category-nav nav{
+margin-bottom:40px;
+}
+.NewsList-Category-nav nav ul li{
+	display:inline-block;
+	margin-bottom:30px;
+}
+.NewsList-Category-nav p a{ width:20em; margin:0 auto;}

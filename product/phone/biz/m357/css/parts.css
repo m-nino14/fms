@@ -1,0 +1,31 @@
+/*****************************************************-
+CSS Document : 共用　個別パーツまとめ
+- ****************************************************/
+.product-info.conts-style-info h1.hide-ttl { display:none;}
+.product-info.conts-style-info .info-top-copy .cts-inr{ min-height:450px; background:url(/product/phone/biz/m357/images/1/info01.png) no-repeat center top;}
+.product-info.conts-style-info .info-top-copy .copy-txt{ width:550px; margin:0 auto 0 0;}
+.product-info.conts-style-info .info-top-copy .copy-txt .img{ text-align:left;}
+.product-info.conts-style-info .info-top-copy .copy-txt .img img{ width:280px; height:auto;}
+.product-info.conts-style-info .info-top-copy .copy-txt h2{ text-align:left; font-size:215%;}
+.product-info.conts-style-info .info-top-copy .copy-txt .dtl-idt{ width:100%;}
+@media screen and ( max-width:750px) {
+.product-info.conts-style-info .info-top-copy .cts-inr{ min-height:150px; background:none;}
+.product-info.conts-style-info .info-top-copy .copy-txt{ width:auto; padding:0;}
+.product-info.conts-style-info .info-top-copy .copy-txt .img{ text-align:center;}
+.product-info.conts-style-info .info-top-copy .copy-txt .img img{ width:80%; max-width:320px; height:auto;}
+.product-info.conts-style-info .info-top-copy .copy-txt h2{ text-align:center; font-size:2.2rem;}
+.product-info.conts-style-info .info-top-copy .copy-txt .dtl-idt{ width:auto;}
+}
+
+.product-info .cts-inr.color-conts{ overflow:hidden; zoom:1;}
+.product-info .cts-inr.color-conts .img{ width:50%; float:left; text-align:center;}
+@media screen and ( max-width:750px) {
+.product-info .cts-inr.color-conts .img{ float:none; width:100%;}
+.product-info .cts-inr.color-conts .img img { width:100%; max-width:180px; height:auto;}
+}
+
+table.standard.type-name th{ white-space:nowrap;}
+table.standard.type-name th.tcenter, td.tcenter{ text-align:center;}
+@media screen and ( max-width:750px) {
+table.standard.type-name th{ white-space:normal;}
+}

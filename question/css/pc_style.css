@@ -1,0 +1,210 @@
+@charset "utf-8";
+/*****************************************************-
+Font
+- ****************************************************/
+/*基本フォント*/
+body {
+	font-size: 13px;
+	font-family: 'Noto Sans Japanese', sans-serif;
+	line-height: 1.55;
+	*font-size: small; /* Win IE7およびWin IE6標準準拠モード向け */
+	*font: x-small; /* Win IE 5-5.5､6(後方互換モード)向け */
+	color: #333;
+	-webkit-text-size-adjust: 100%;
+}
+.is_ie body {
+	font-size: small;
+	*font-size: small;
+	*font: x-small;
+}
+
+table {
+	font-size: inherit; /* モダンブラウザ向け */
+	font: 100%; /* Win IE 5-5.5､6(後方互換モード)向け */
+}
+
+pre,code,kbd,samp,tt {
+	font-family: monospace;
+	*font-size: 108%; /* Win IE全般向け */
+	line-height: 100%;
+}
+
+
+.roboto {
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+.sp_br{display: none;}
+
+/*相対文字サイズ*/
+.xx-small {
+	font-size: 77%; /*10px*/
+}
+.x-small {
+	font-size: 85%; /*11px*/
+}
+.small {
+	font-size: 93%; /*12px*/
+}
+.large {
+	font-size: 108%; /*14px*/
+}
+.x-large {
+	font-size: 116%; /*15px*/
+}
+.xx-large {
+	font-size: 123.1%; /*16px*/
+}
+.xxx-large {
+	font-size: 131%; /*17px*/
+}
+.xxxx-large {
+	font-size: 138.5%; /*18px*/
+}
+
+/*
+9px  = 70%
+10px = 77%
+11px = 85%
+12px = 93%
+13px = 100%
+14px = 108%
+15px = 116%
+16px = 123.1%
+17px = 131%
+18px = 138.5%
+19px = 146.5%
+20px = 153.9%
+21px = 161.6%
+22px = 167%
+23px = 174%
+24px = 182%
+25px = 189%
+26px = 197%
+
+30px = 231%
+*/
+
+.box{
+	width: 800px;
+	margin: 0 auto;
+	/*border: 5px solid #9F0B1B;*/
+	padding: 30px 40px;
+	box-sizing: border-box;
+	border: 1px solid #ccc;
+}
+
+.box .btn{
+	text-align: center;
+}
+.box .btn a,.box .btn button{
+	display: inline-block;
+	background-color: #9F0B1B;
+	color: #fff;
+	font-size: 167%;
+	font-weight: bold;
+	width: 400px;
+	height: 60px;
+	line-height:60px;
+	text-decoration: none !important;
+	border: 0px;
+	transition: 0.3s all;
+}
+.box .btn a span,.box .btn button span{
+	display: inline-block;
+	background: url(../images/arrow.png) no-repeat 98% 53%;
+	background-size: 10px;
+	padding-right: 40px;
+	transition: 0.3s all;
+}
+.box .btn a:hover,.box .btn button:hover{
+	opacity: 0.7;
+}
+.box .btn a:hover span,.box .btn button:hover span{
+	background-position: 100% 53%;
+}
+
+.box .lead{
+	font-size: 167%;
+	font-weight: bold;
+	text-align: center;
+	padding: 140px 0 120px;
+}
+.box form dl{
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.box form dt{
+	text-align: left;
+	position: relative;
+	font-size: 108%;
+	font-weight: bold;
+	margin-bottom: 15px;
+	padding-left: 1.5em;
+	line-height: 1.4;
+	border-bottom: 1px solid #333;
+	padding-bottom: 5px;
+}
+.box form dt i{
+	position:absolute;
+	top: 0;
+	left: 0;
+	font-style: normal;
+}
+.box form dd{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.box form dd li{
+	float: left;
+	width: 50%;
+	text-align: left;
+	margin-bottom: 1px;
+	border-left:1px solid #fff;
+	box-sizing: border-box;
+}
+.box form dd li input{
+	display: block;
+	margin: 0 auto 10px;
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	margin-top: -0.5em
+}
+.box form dd li label{
+	width: 100%;
+	display: block;
+	background-color: #eee;
+	padding: 10px 10px 10px 40px;
+	cursor: pointer;
+	box-sizing: border-box;
+	line-height: 1.2;
+	transition: 0.3s all;
+	position: relative;
+	vertical-align: middle;
+}
+.box form dd:nth-of-type(1) li:nth-child(2) label{ line-height: 30px;}
+.box form dd li:nth-child(2) label,.box form dd li:nth-child(3) label{
+	background-color: #e1e1e1;
+}
+.box form dd li label:hover{
+	opacity: 0.8;
+}
+
+.box.complete{
+	display: table;
+	height: 510px;
+}
+.box.complete p{
+	display:table-cell;
+	height: 100%;
+	vertical-align: middle;
+	font-size: 167%;
+	font-weight: bold;
+	text-align: center;
+}
+.box p.txt{
+	font-size: 167%;
+	font-weight: bold;
+	text-align: center;
+	padding: 140px 0 120px;
+}

@@ -1,0 +1,16 @@
+/*****************************************************-
+CSS Document : for IE8
+- ****************************************************/
+/*フォント指定*/
+body {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "sans-serif";
+}
+.roboto {
+	font-family: 'Roboto', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "sans-serif";
+}
+.sec-ttl .txt .en {
+	font-family: 'Roboto', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "sans-serif";
+}
+header .hd-inr #searchtop {
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "sans-serif";
+}

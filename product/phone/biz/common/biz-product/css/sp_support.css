@@ -1,0 +1,60 @@
+/*****************************************************-
+CSS Document : SP用
+- ****************************************************/
+
+/*===========================================================================
+ product-info
+===========================================================================*/
+.phone-contents.support-contents ul.support-list{ margin:0 auto 20px; list-style:disc outside !important;}
+.phone-contents.support-contents ul.support-list li{ width:100%; text-align:left; margin-top:30px; margin-left:20px; list-style:disc inside;}
+.phone-contents.support-contents .phone-contents-dtl.linenone{ padding-bottom:70px !important;}
+.phone-contents.support-contents .phone-contents-dtl .cts-inr { padding-left: 12px; padding-right: 12px;}
+.phone-contents.support-contents .phone-contents-dtl .dtl-idt{ padding:10px 0 0;}
+
+.phone-contents .mobile-col .item-list ul.model-list{ margin:0 auto 20px;}
+.phone-contents .mobile-col .item-list ul.model-list li{ width:170px; list-style:none; margin-top:15px; padding-left:15px; padding-right:15px;}
+.phone-contents .mobile-col .item-list ul.model-list li a { line-height: 1.3; font-weight: bold; text-align: center; display: block; font-size: 1rem; background: #fcfcfc; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; border:solid 1px #cccccc; text-decoration: none; padding:10px 5px 9px;}
+
+.phone-contents.support-contents .page-ttl { font-weight:normal; line-height:1.1}
+.phone-contents.support-contents .page-ttl span { display:block; font-size:1.8rem; padding-bottom:12px; font-weight:normal;}
+.phone-contents.support-contents .phone-contents-dtl .dtl-ttl { font-size: 2rem; margin-bottom:0;}
+
+.support-cts p { font-size:1.3rem; margin-bottom:25px;}
+.support-cts p:first-child { margin-top:12px;}
+.support-cts p sub { font-size:1rem; padding-left:5px; padding-right:5px; vertical-align:baseline; white-space:nowrap;}
+
+.support-cts ul { list-style:disc; margin-left:15px;}
+.support-cts ul li { margin-bottom:8px;}
+
+
+.support-cts.faq-info { margin-left:15px;}
+.support-cts.faq-info p { margin-bottom:10px;}
+.support-cts.faq-info img { vertical-align:middle;margin-left:0px;}
+.phone-contents.support-contents .phone-contents-dtl .dtl-heading02 { font-size:1.8rem; line-height:1em;}
+
+.phone-contents .mobile-col .item-list ul.pdf-link { display: block;}
+.phone-contents .mobile-col .item-list ul.pdf-link li.btn-pdf-dl { width:auto; display:block;}
+.phone-contents .mobile-col .item-list ul.pdf-link li.btn-pdf-dl a { width:auto; font-size:1.3rem !important; font-weight:normal !important;}
+
+
+.phone-contents.support-contents table.standard.mcard { font-size:1.3rem;}
+.phone-contents.support-contents table.standard.mcard .conceal { display:none;}
+.phone-contents.support-contents table.standard.mcard thead th { background:#d2d2d2;}
+.phone-contents.support-contents table.standard.mcard th { text-align:center; font-weight:normal;}
+.phone-contents.support-contents table.standard.mcard td { text-align:center;}
+
+
+.Category-nav{ text-align:center; border-bottom:none !important;}
+.Category-nav a{ color:#ffffff; text-decoration:none; background-color: #606060; padding: 8px 0 6px; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; margin:0 8px; display:block;}
+.Category-nav a:hover{ opacity:0.8;}
+.Category-nav nav{ margin-bottom:40px;}
+.Category-nav nav ul li{ display:block; margin-bottom:12px; width:100%;}
+.Category-nav p a { margin: 0 25px;}
+
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list.memory_card_ul li { padding-bottom: 10px;}
+
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list.memory_card_ul li ul.disc-list { margin: 0 0 0 13px;}
+.phone-contents .phone-contents-dtl .dtl-idt ul.disc-list.memory_card_ul li ul.disc-list li { padding-bottom:3px; margin:0;}
+a img.w-icon { position:relative; top:-2px; margin-left:2px;margin-right:2px;}
+
+footer .ft-note .note-list li { margin-left:2.5em; text-indent:-2.5em;}

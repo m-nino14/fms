@@ -1,0 +1,393 @@
+/*****************************************************-
+CSS Document : SP用
+- ****************************************************/
+.product-nav {
+	display: none !important;
+}
+.main-slide {
+}
+.main-slide .slide {
+	position: relative;
+}
+.main-slide .slide .mask {
+	width: 100%;
+	overflow: hidden;
+}
+.main-slide .slide .slider {
+	width: 9999px;
+	position: relative;
+}
+.main-slide .slide .slider .item {
+	float: left;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background: none !important;
+}
+.main-slide .slide .slider .item a {
+}
+.main-slide .slide .slider .item img {
+	width: 100%;
+	height: auto;
+}
+.main-slide .slide .slider .item a:hover img {
+	filter: none !important;
+	-moz-opacity: 1 !important;
+	opacity: 1 !important;
+}
+.main-slide .icn-nav {
+	position: absolute;
+	bottom: 6px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.main-slide .icn-nav li {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(/product/phone/images/rnw2015/phone_slide_nav.png) no-repeat -24px -75px;
+	background-size: 100px auto;
+	-webkit-background-size: 100px auto;
+	cursor: pointer;
+}
+.main-slide .icn-nav li.stay {
+	background-position: left -75px;
+	cursor: default;
+}
+.main-slide .next,
+.main-slide .prev {
+	position: absolute;
+	top: 50%;
+	width: 32px;
+	height: 44px;
+	margin-top: -22px;
+	background-image: url(/product/phone/images/rnw2015/phone_slide_nav.png);
+	background-size: 100px auto;
+	-webkit-background-size: 100px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.main-slide .next {
+	right: 0;
+	background-position: -50px top;
+}
+.main-slide .prev {
+	left: 0;
+	background-position: left top;
+}
+
+
+.new-mobile-col {
+	padding-top: 42px;
+	padding-bottom: 50px;
+}
+.new-mobile-col .lead {
+	text-align: center;
+	margin-top: 35px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.new-mobile-col .item-list {
+	text-align: center;
+}
+.new-mobile-col .item-list ul {
+	display: inline-block;
+}
+.new-mobile-col .item-list li {
+	display: inline-block;
+	width: 165px;
+	margin-top: 36px;
+	text-align: center;
+}
+.new-mobile-col .item-list li .cat {
+	display: table;
+	width: 100%;
+	font-size: 1.3rem;
+}
+.new-mobile-col .item-list li .cat span {
+	display: table-cell;
+	vertical-align: middle;
+}
+.new-mobile-col .item-list li:first-child .cat span,
+.new-mobile-col .item-list li:last-child .cat span {
+}
+.new-mobile-col .item-list li .img {
+}
+.new-mobile-col .item-list li .img img {
+	width: 100%;
+	height: auto;
+}
+.new-mobile-col .item-list li .name {
+	color: #888888;
+	font-size: 1rem;
+	margin-top: -2px;
+}
+.new-mobile-col .item-list li .btn {
+	padding-left: 24px;
+	padding-right: 24px;
+	margin-top: 6px;
+}
+.new-mobile-col .item-list li .btn a {
+	line-height: 1.3;
+	font-weight: bold;
+	text-align: center;
+	display: block;
+	font-size: 1rem;
+	background-color: #d22626;
+	color: #FFF;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 9px;
+}
+.new-mobile-col .item-list li .btn a:hover {
+	background-color: #ff0000;
+}
+.new-mobile-col .carrier-link {
+	text-align: center;
+	margin-top: 35px;
+	font-size: 1.1rem;
+}
+.new-mobile-col .carrier-link li {
+	display: inline;
+	white-space:nowrap;
+}
+.new-mobile-col .carrier-link li a {
+	margin-left: 10px;
+	margin-right: 15px;
+	line-height:2.5em;
+}
+
+
+.pickup-col {
+	border-top: 1px solid #d2d2d2;
+	background-color: #f3f5f6;
+	padding-top: 25px;
+	padding-bottom: 30px;
+}
+.pickup-col .pc-bnr-list {
+	height: 0;
+	overflow: hidden;
+}
+.pickup-col .sp-slide {
+	margin-top: 25px;
+}
+.pickup-col .sp-slide .slide {
+	position: relative;
+}
+.pickup-col .sp-slide .slide .mask {
+	width: 100%;
+	overflow: hidden;
+}
+.pickup-col .sp-slide .slide .slider {
+	width: 9999px;
+	position: relative;
+}
+.pickup-col .sp-slide .slide .slider .item {
+	float: left;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background: none !important;
+}
+.pickup-col .sp-slide .slide .slider .item a {
+}
+.pickup-col .sp-slide .slide .slider .item img {
+	width: 100%;
+	height: auto;
+}
+.pickup-col .sp-slide .slide .slider .item a:hover img {
+	filter: none !important;
+	-moz-opacity: 1 !important;
+	opacity: 1 !important;
+}
+.pickup-col .sp-slide {
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.pickup-col .sp-slide .icn-nav {
+	position: absolute;
+	top: 67%;
+	margin-top: -30px;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.pickup-col .sp-slide .icn-nav li {
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(/product/phone/images/rnw2015/phone_slide_nav.png) no-repeat -24px -75px;
+	background-size: 100px auto;
+	-webkit-background-size: 100px auto;
+	cursor: pointer;
+}
+.pickup-col .sp-slide .icn-nav li.stay {
+	background-position: left -75px;
+	cursor: default;
+}
+.pickup-col .sp-slide .next,
+.pickup-col .sp-slide .prev {
+	position: absolute;
+	top: 47%;
+	width: 32px;
+	height: 44px;
+	/*margin-top: -35px;*/
+	margin-top: -22px;
+	background-image: url(/product/phone/images/rnw2015/phone_slide_nav.png);
+	background-size: 100px auto;
+	-webkit-background-size: 100px auto;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	cursor: pointer;
+}
+.pickup-col .sp-slide .next {
+	right: -24px;
+	background-position: -50px top;
+}
+.pickup-col .sp-slide .prev {
+	left: -24px;
+	background-position: left top;
+}
+.pickup-col .sp-slide .item .txt-col,
+.pickup-col .item-line-wrap .item .txt-col {
+	margin-top: 5px;	
+}
+.pickup-col .sp-slide .item .txt-col .ttl,
+.pickup-col .item-line-wrap .item .txt-col .ttl {
+	font-size: 1.3rem;
+}
+.pickup-col .sp-slide .item .txt-col .ttl a,
+.pickup-col .item-line-wrap .item .txt-col .ttl a {
+	text-decoration: none;
+}
+.pickup-col .sp-slide .item .txt-col .txt,
+.pickup-col .item-line-wrap .item .txt-col .txt {
+	margin-top: 3px;
+	font-size: 1.1rem;
+}
+
+
+.pickup-col .item-line-wrap {
+	padding-top: 10px;
+}
+.pickup-col .item-line-wrap .item {
+	margin-top: 25px;
+	width: 50%;
+	float: left;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.pickup-col .item-line-wrap .item:nth-child(odd) {
+	padding-right: 9px;
+}
+.pickup-col .item-line-wrap .item:nth-child(even) {
+	padding-left: 9px;
+}
+.pickup-col .item-line-wrap .item .bnr img {
+	width: 100%;
+	height: auto;
+}
+.pickup-col .item-show {
+	cursor: pointer;
+	background-color: #131313;
+	text-align: center;
+	padding-top: 11px;
+	padding-bottom: 9px;
+	line-height: 1;
+	font-size: 1.1rem;
+	color: #FFF;
+	margin-top: 30px;
+}
+.pickup-col .item-show:hover {
+	background-color: #888888;	
+}
+.pickup-col .item-show span {
+	padding-left: 17px;
+	background: url(/product/phone/common/rnw2015/images/1/pc_icn_arw.png) no-repeat left center;
+}
+.pickup-col .item-hide {
+	height: 0;
+	overflow: hidden;	
+}
+
+
+.news-col {
+	border-top: 1px solid #d2d2d2;
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+.news-col .link-list-col {
+	margin-top: 30px;	
+}
+.news-col .btn-center {
+	margin-top: 30px;
+	text-align: center;
+	width: 158px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.news-col .btn-center a {
+	display: block;
+	line-height: 1;
+	padding-top: 14px;
+	padding-bottom: 13px;
+	background-color: #d22626;
+	color: #FFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+.news-col .btn-center a:hover {
+	background-color: #ff0000;
+}
+
+
+
+.news-col .link-sns {
+	margin-top: 30px;
+}
+.news-col .link-sns p,
+.news-col .link-sns ul,
+.news-col .link-sns li {
+	display: inline-block;
+	vertical-align: middle;
+}
+.news-col .link-sns p {
+	font-size: 1.1rem;
+	float: left;
+	padding-top: 7px;
+}
+.news-col .link-sns ul {
+	float: right;
+}
+.news-col .link-sns li {
+	float: left;
+	margin-left: 8px;
+}
+.news-col .link-sns li img {
+	width: 32px;
+	height: auto;
+}
+
+.bannre-col {
+	padding-top: 35px;
+	padding-bottom: 50px;
+}
+.bannre-col.border_up{ border-top: 1px solid #d2d2d2;}
+.bannre-col.border_down{ border-bottom: 1px solid #d2d2d2;}
+.bannre-col img{
+	width:100%;
+	height:auto;
+}
+
+.pageH1{display:none;}

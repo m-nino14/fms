@@ -1,0 +1,626 @@
+/*****************************************************-
+CSS Document : SP用
+- ****************************************************/
+body{ font-weight:200; font-size: 1.1rem;}
+header,
+footer{ font-weight:400 !important;}
+footer .ft-note{ font-weight:100;　font-size:1.1rem;}
+
+.page-sns {
+	margin-top: 10px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+.page-sns .inr {
+	float: right;
+}
+.page-sns p,
+.page-sns li,
+.page-sns ul {
+	float: left;
+}
+.page-sns p {
+	color: #888888;
+	font-size: 1.1rem;
+	padding-top: 7px;
+}
+.page-sns ul {
+	padding-left: 10px;
+}
+.page-sns li {
+	margin-left: 7px;
+}
+.page-sns li img {
+	width: 32px;
+	height: auto;	
+}
+.is_mouse .page-sns li.btn-ln {
+	display: none;
+}
+
+.btn-pdf-dl {
+	text-align: center;
+	font-size: 1.3rem;
+}
+.btn-pdf-dl a {
+	display: block;
+	line-height: 1.8;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border: 1px solid #b8b8b8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+}
+.btn-pdf-dl a .icn {
+	margin-right: 8px;
+}
+.btn-pdf-dl a .icn img {
+	width: 16px;
+	height: auto;
+	vertical-align: middle;
+	position: relative;
+	top: -1px;
+}
+.btn-pdf-dl a:hover .icn img {
+	filter: none !important;
+	-moz-opacity: 1 !important;
+	opacity: 1 !important;
+}
+.btn-pdf-dl a .txt {
+	font-weight: bold;
+	text-decoration: none;
+}
+.btn-pdf-dl a .size {
+	color: #888888;
+}
+.btn-pdf-dl a:hover .txt {
+	text-decoration: underline;
+}
+.product-cts .btn-pdf-dl{ margin-top:30px;}
+.product-info .info-dtl .cts-inr .btn-pdf-dl{
+	padding-left:12px;
+	padding-right:12px;
+}
+
+
+/*===========================================================================
+ youtube
+===========================================================================*/
+.youtube {
+	margin-top:35px;
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+}
+.youtube iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+
+/*===========================================================================
+ product-info
+===========================================================================*/
+.product-info .info-ttl img {
+	width: 100%;
+	height: auto;
+}
+.product-info .page-ttl {
+	text-align: center;
+	font-size: 3.3rem;
+	color: #d22626;
+	line-height: 1;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	font-weight: bold;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #d22626;
+	margin-left: 24px;
+	margin-right: 24px;
+}
+.product-info .info-dtl {
+	border-bottom: 1px solid #d2d2d2;
+	padding-top: 35px;
+	padding-bottom: 40px;	
+}
+.product-info .info-dtl.linenone{
+	border-bottom:none;
+}
+.product-info .info-dtl .cts-inr {
+	padding-left: 0;
+	padding-right: 0;
+}
+.product-info .info-dtl .dtl-ttl {
+	line-height: 1.4;
+	font-size: 2.2rem;
+	text-align: center;
+	vertical-align: bottom;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+.product-info .info-dtl .dtl-ttl span{
+	font-size: 1.5rem;
+}
+.product-info .info-dtl .dtl-ttl sub {
+	font-size: 0.9rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.product-info .info-dtl .img {
+	margin-top: 15px;
+}
+.product-info .info-dtl .img img {
+	width: 100%;
+	height: auto;
+}
+.product-info .info-dtl .img span{
+	margin-top:8px;
+	display:block;
+	text-align:center;
+}
+.product-info .info-dtl .dtl-icn {
+	float: right;
+	margin-top: 5px;
+}
+.product-info .info-dtl .dtl-icn li {
+	float: left;
+	margin-left: 8px;
+}
+.product-info .info-dtl .dtl-icn li img {
+	width: 30px;
+	height: auto;
+}
+.product-info .info-dtl .dtl-idt {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-top: 10px;
+}
+.product-info .info-dtl .dtl-idt .dtl-heading01 {
+	font-size: 1.6rem;
+	padding-left: 20px;
+	margin-top: 15px;
+	background: url(/product/phone/common/rnw2015/images/1/sp_icn_circle01.png) no-repeat left 0.3em;
+	background-size: 14px auto;
+	-webkit-background-size: 14px auto;
+}
+.product-info .info-dtl .dtl-idt .dtl-heading01 sub {
+	font-size: 0.9rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.product-info .info-dtl .dtl-idt .dtl-heading02 {
+	font-size: 1.4rem;
+	padding-left: 17px;
+	margin-top: 15px;
+	background: url(/product/phone/common/rnw2015/images/1/sp_icn_circle02.png) no-repeat left 0.3em;
+	background-size: 12px auto;
+	-webkit-background-size: 12px auto;
+}
+.product-info .info-dtl .dtl-idt .dtl-heading02 sub {
+	font-size: 0.9rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.product-info .info-dtl .dtl-idt .txt {
+	margin-top: 10px;
+	font-size: 1.3rem;
+}
+.product-info .info-dtl .dtl-idt .txt sub {
+	font-size: 0.8rem;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+.product-info .info-dtl .dtl-idt .txt:first-child {
+	margin-top: 7px;
+}
+.product-info .btn-sec {
+	padding-top: 19px;
+	padding-bottom: 19px;
+}
+.product-info .btn-sec .btn-next {
+	float: none;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.product-info .btn-sec .btn-prev {
+	float: none;
+	width: 100%;
+	margin-bottom:10px;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.product-info .btn-sec .btn-next a,
+.product-info .btn-sec .btn-prev a {
+	display: block;
+	line-height: 1;
+	padding: 0;
+	background-color: #ffffff;
+	color: #666666;
+	border:solid 1px #AAAAAA;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-decoration: none;
+	font-size: 1.1rem;
+}
+.product-info .btn-sec .btn-next a:hover,
+.product-info .btn-sec .btn-prev a:hover {
+	opacity:0.8;
+}
+.product-info .btn-sec .btn-next a span {
+	text-align: right;
+	line-height: 1.2;
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 8px;
+	padding-right: 35px;
+	padding-left: 15px;
+	background: url(/product/phone/common/rnw2015/images/1/arrow-right.png) no-repeat right center;
+	background-size: 25px auto;
+	-webkit-background-size: 25px auto;
+}
+.product-info .btn-sec .btn-prev a span {
+	text-align: right;
+	line-height: 1.2;
+	display: block;
+	padding-top: 9px;
+	padding-bottom: 8px;
+	padding-right: 15px;
+	padding-left: 35px;
+	text-align: left;
+	background: url(/product/phone/common/rnw2015/images/1/arrow-left.png) no-repeat left center;
+	background-size: 25px auto;
+	-webkit-background-size: 25px auto;
+}
+.product-info .btn-sec .btn-next a span em,
+.product-info .btn-sec .btn-prev a span em{
+	display:inline-block;
+	margin-top:3px;
+	padding:2px 20px 3px;
+	width:auto;
+	color: #FFF;
+	background-color: #d22626;
+	white-space: nowrap;
+	font-style:normal !important;
+	font-size:1.5rem;
+	font-weight: bold;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+
+	position: relative;
+	behavior:url("/product/phone/common/rnw2015/js/PIE.js");
+}
+.product-info .btn-sec .btn-pdf-dl {
+	margin-top: 12px;
+}
+
+/* list style */
+.info-dtl li { font-size:1.3rem;}
+.info-dtl li sub{ font-size:0.9rem;}
+.product-info .info-dtl .dtl-idt ul.disc-list,
+.product-info .boxGray,
+.product-info .parallelLine{
+	margin-top:15px;
+}
+.product-info .info-dtl .dtl-idt ul.disc-list{ list-style:disc;margin:5px 12px;}
+.product-info .boxGray.spline{
+	border: solid 1px #bbbbbb;
+	padding: 8px 15px 15px;
+}
+.product-info .sp-boxGray{
+	border: solid 1px #bbbbbb;
+	padding: 20px;
+	margin-top: 15px;
+}
+.product-info .list-col2{
+	margin-top:15px;
+}
+.product-info .boxGray.list-col2{
+	margin-top:0;
+}
+/*.product-info .info-dtl .dtl-idt ul.disc-list li,
+.product-info .boxGray ul li,
+.product-info .list-col2 ul li,
+.product-info .parallelLine ul li{
+	padding:10px 20px;
+	border-bottom:solid 1px #bbbbbb;
+}
+.product-info .info-dtl .dtl-idt ul.disc-list li:first-child,
+.product-info .boxGray ul li:first-child,
+.product-info .list-col2 ul li:first-child,
+.product-info .parallelLine ul li:first-child{
+	border-top:solid 1px #bbbbbb;
+}*/
+
+.product-info .boxGray ul li sup,
+.product-info .parallelLine ul li sup{
+	font-size: 75%;
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 0;
+	padding-left:0;
+	padding-right: 0.5em;
+	position:relative;
+	top:-2px;
+}
+
+.product-info .info-dtl .dtl-ttl sup,
+.product-info .info-dtl .dtl-heading01 sup {
+	font-size: 65%;
+	vertical-align: top;
+	display: inline-block;
+	padding-top: 0;
+	padding-left:0;
+	padding-right: 0.5em;
+}
+
+.product-info ul.img-list{
+	overflow:hidden;
+	margin:1.75em 0;
+}
+.product-info .boxGray ul.img-list{
+	margin:5px 0;
+}
+.product-info ul.img-list li{
+	background:url(/product/phone/common/rnw2015/images/1/sp_icn_circle03.png) no-repeat left top;
+	background-size: 14px auto;
+	padding-left: 20px;
+	-webkit-background-size: 14px auto;
+	min-height:2em;
+	border:none;
+	margin-bottom:8px;
+}
+.product-info ul.img-list li sub{ font-size:80%;}
+.product-info ul.img-list li:last-child{
+	margin-bottom:0;
+}
+.product-info .boxGray ul.img-list li{
+	padding:0 0 0 20px;
+	line-height:normal;
+	white-space:normal;
+	margin-left:0;
+}
+.product-info .boxGray ul.img-list li:first-child{border-top:none;}
+
+/* table style */
+.product-info table.standard{
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	border: 1px solid #B8B8B8;
+	color: #333;
+}
+.product-info table.standard caption.dtl-ttl{
+	margin-bottom:1.2em;
+	font-weight:normal;
+}
+.product-info table.standard th,
+.product-info table.standard td{
+	padding:5px;
+	border-collapse: collapse;
+	border: 1px solid #AAA;
+	line-height: 1.6;
+	font-size: 1.3rem;
+	font-weight:100;
+}
+.product-info table.standard th sub,
+.product-info table.standard td sub{ font-size:80%;}
+.product-info table.standard th{
+	background-color: #F2F2F2;
+}
+.product-info table.standard td img{
+	vertical-align:middle;
+}
+
+.col_th{width:30%;}
+.col2_th{width:15%;}
+
+.col_td{width:70%;}
+
+
+/* 別窓icon用 */
+a img.w-icon{
+	position:relative;
+	top:-2px;
+	margin-left:2px;
+	margin-right:2px;
+}
+
+
+/* スペシャルサイトバナー等設置 */
+.product-cts .btn-web{ text-align:center; margin-top:12px;}
+.product-info .btn-web{ text-align:center; margin-top: 12px;}
+.product-cts .btn-web a,
+.product-info .btn-web a{ -moz-opacity: 1 !important; opacity: 1 !important;}
+.product-cts .btn-web img,
+.product-info .btn-web img{ width:100%; height:auto;}
+
+
+/* カテゴリアイコン中央寄せ */
+.product-info .info-dtl .Category_icon{ margin:0 0 20px; text-align:center;}
+.product-info .info-dtl .Category_icon img{ width:100%; height:auto;}
+
+
+/* コラム（グレー枠黄色版） */
+.column{
+	border:solid 1px #FFC000;
+	background:#FFFFCC;
+	padding:15px;
+	margin-top:30px;
+	overflow:hidden;
+}
+.product-info .info-dtl .dtl-idt .column .txt:first-child{margin-top:0;}
+.column .txt strong,
+.column h3.dtl-ttl{ color:#D22626;}
+.column ul{ margin-top:20px;}
+.column .arrows_app ul{ margin-top:0;}
+.product-info .parallelLine .arrows_app ul li:first-child{ border-top:none;}
+.product-info .parallelLine .arrows_app ul li:last-child{ border-bottom:none;}
+.product-info .column .parallelLine ul li{
+	line-height:1.5em;
+}
+
+
+/* 枠強め */
+.captionBox{
+	border:solid 2px #B61F1F;
+	margin:0 0 40px;
+}
+.captionBox p{	padding:10px 20px;}
+
+hr{ border:none;}
+.product-info  hr{
+	border-top: 1px solid #bbb;
+	margin-top:30px;
+	margin-bottom:20px;
+}
+
+
+/* 調整用 */
+p.txt img{ position:relative; top:-5px; margin-left:2px; margin-right:2px;}
+p.txt img.mini_img{ width:1.5rem; height:auto;}
+p.txt.tcenter{ text-align:center;}
+
+
+
+/*===========================================================================
+ tihs product original settings
+===========================================================================*/
+
+.point-txt{ font-size:2.2rem; text-align:center; margin-bottom:1.5em; color:#666666;}
+.product-info .section_line hr{
+	margin-top:35px;
+	margin-bottom:40px;
+}
+
+.product-info .parallelBox ul li,
+.product-info .parallelBox3 ul li{
+	font-weight:400;
+	list-style: none;
+	padding-left:1.5em;
+	background: url(/product/phone/common/rnw2015/images/1/pc_icn_circle01.png) no-repeat left 0.6em;
+	background-size:1.2rem;
+	line-height:2.2;
+}
+table caption.none-txt{ display:none;}
+
+/*===========================================================================
+ product-top
+===========================================================================*/
+.product-top .concept-cnt img, .product-top .main-dtl img{ width:100%; height:auto;}
+
+/*.product-top .concept-cnt{ margin:12px 12px 0;}*/
+.product-top .concept-cnt .txt-cnt{ text-align:center;}
+.product-top .concept-cnt .txt-cnt .Copy{
+	font-weight:300;
+	font-size: 2rem;
+	margin-bottom:20px;
+	margin-top:12px;
+}
+.product-top .concept-cnt .txt-cnt img{ width:80%; max-width:326px;}
+.product-top .concept-cnt .category-img{ text-align:center;}
+.product-top .concept-cnt .MIJ{
+	display:none;
+}
+
+.product-top .main-dtl{
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background:url(/product/phone/biz/m357/images/parts/top_cont_bg.png) repeat-x bottom;
+	overflow:hidden;
+}
+.product-top .main-dtl.acc-cnt{ padding-bottom:20px;}
+
+.product-top .main-dtl .accessory .page-sns li img { width: 32px; height: auto;}
+.product-top .main-dtl .accessory .Category-nav ul { margin:40px 12px;}
+.product-top .main-dtl .accessory .Category-nav ul li { margin-bottom:10px; text-align:center;}
+.product-top .main-dtl .accessory .Category-nav ul li img { width:100%; max-width:320px; height:auto;}
+
+.product-top .main-dtl .category-img { text-align:center; margin-bottom:20px;}
+.product-top .main-dtl .category-txt { font-size: 1.5rem;}
+.product-top .main-dtl .category-txt h2 { text-align:center; font-weight:300; font-size: 2rem; margin-bottom:20px; }
+.product-top .main-dtl .category-txt p { margin:0; line-height:2;}
+.product-top .main-dtl .category-txt ul.category-link { text-align:center; margin-top: 40px;}
+.product-top .main-dtl .category-txt ul.category-link li a { color:#333;}
+.product-top .main-dtl .category-txt ul.category-link li a img{ text-decoration:none; position:relative; top:-4px; left:5px; max-width:11px;}
+
+.product-top .product-cts {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #d2d2d2;
+	overflow:hidden;
+}
+.product-top .product-cts.linenone{
+	border:none;
+}
+
+.product-top .product-cts ul.index-Category-nav { width:300px;margin: 0 auto 20px; overflow:hidden;}
+.product-top .product-cts ul.index-Category-nav li {
+	margin: 5px;
+	display:table;
+	float:left;
+	width: 140px;
+}
+.product-top .product-cts ul.index-Category-nav li a {
+	display:table-cell;
+	padding:0 10px;
+	width:100%;
+	height:4em;
+	text-align:center;
+	border:solid 1px #666;
+	color:#666;
+	font-weight:400 !important;
+	text-decoration:none;
+	vertical-align:middle;
+	background:url(/product/phone/biz/m357/images/parts/top_arrow01-off.png) no-repeat 97% 50%;
+}
+.product-top .product-cts ul.index-Category-nav li a span { white-space:nowrap;}
+.product-top .product-cts ul.index-Category-nav li a:hover {
+	color:#fff;
+	background:#666 url(/product/phone/biz/m357/images/parts/top_arrow01-on.png) no-repeat 97% 50%;
+}
+
+.product-top .info-col {
+	margin-bottom: 37px;
+}
+.product-top .info-col .link-list-col h2 {
+	font-size: 1.3rem;
+	background: url(/product/phone/common/rnw2015/images/1/sp_icn_circle02.png) no-repeat left 0.2em;
+	background-size: 12px auto;
+	-webkit-background-size: 12px auto;
+	padding-left: 17px;
+	line-height: 1.3;
+}
+
+.product-top .product-cts .cts-inr .center a img{ max-width:100%; height:auto;}
+
+
+.product-top .main-dtl.rda { padding-bottom:70px;}
+
+
+.product-top .main-dtl .category-txt ul.category-link li + li{ margin-top:12px;}
+.product-top .main-dtl .category-txt ul.category-link li + li a{ background:#e8f4f8 url(/product/phone/biz/m357/images/parts/top_arrow01-off.png) no-repeat 98% center; border:solid 1px #d9d9d9; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; display:block; padding:5px 15px 5px 10px;}
+.vegas{ width:100%; margin:24px 0; padding-botom:24px; text-align:center;}
+.vegas img { width:182px; height:auto;}
+.vegas p{ margin-top: 24px; text-align:left;}
+.vegas p b{ font-weight:bolder;}

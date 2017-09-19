@@ -1,0 +1,235 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+/*****************************************************-
+Reset
+- ****************************************************/
+* {
+	font-size: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	font-weight: normal;
+	text-align: center;
+	position: relative;
+	zoom: 1;
+	word-wrap: break-word;
+}
+h1, h2, h3, h4, h5, h6{	font-weight: normal;}
+.nofilter {
+	opacity: 1 !important;
+	filter: none !important;
+}
+a {
+	color: #2f3e8d;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+a:hover img {
+	filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+button {
+	cursor: pointer;
+}
+object {
+	vertical-align: bottom;
+}
+img {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	vertical-align: bottom;
+}
+ul,
+ol {
+	list-style-type: none;
+}
+li img {
+	vertical-align: bottom;
+}
+strong {
+	font-weight: bold !important;
+}
+em {
+	font-style: italic !important;
+}
+ins {
+	text-decoration: underline !important;
+}
+del {
+	text-decoration: line-through !important;
+}
+
+input.placeholder {
+	color: #cccccc;	
+}
+input:-ms-input-placeholder {
+	color: #cccccc;	
+}
+input::-webkit-input-placeholder {
+	color: #cccccc;	
+}
+input::-moz-placeholder {
+	color: #cccccc;	
+}
+
+
+/* HTML5 */
+main,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+	display:block;
+}
+
+
+
+/*****************************************************-
+Common
+- ****************************************************/
+/* For modern browsers */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+.cf:after {
+    clear:both;
+}
+/* For IE 6/7 (trigger hasLayout) */
+.cf {
+    zoom:1;
+}
+
+
+.center {
+	text-align: center;
+}
+.right {
+	text-align: right;
+}
+.left {
+	text-align: left;
+}
+.break {
+	clear: both;
+}
+.float-l {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.float-r {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+}
+.aural {
+	display: none;
+}
+
+
+.mt0 {
+	margin-top: 0px !important;
+}
+.mt5 {
+	margin-top: 5px !important;
+}
+.mt10 {
+	margin-top: 10px !important;
+}
+.mt15 {
+	margin-top: 15px !important;
+}
+.mt20 {
+	margin-top: 20px !important;
+}
+.mt25 {
+	margin-top: 25px !important;
+}
+.mt30 {
+	margin-top: 30px !important;
+}
+.mt35 {
+	margin-top: 35px !important;
+}
+.mt40 {
+	margin-top: 40px !important;
+}
+.mt45 {
+	margin-top: 45px !important;
+}
+.mt50 {
+	margin-top: 50px !important;
+}
+.mt60{
+	margin-top: 60px !important;
+}
+.mt70{
+	margin-top: 70px !important;
+}
+.mt80{
+	margin-top: 80px !important;
+}
+.mt90{
+	margin-top: 90px !important;
+}
+.mt100{
+	margin-top: 100px !important;
+}
+
+.w100per {
+	width: 100%;
+	height: auto;
+}
+.js_css3,
+.js_wrap-line,
+.js_after-sep,
+js_link-sp-only {
+}
+
+#response-flag {
+	position: absolute;
+	top: -99999px;
+}
+
+
+/*****************************************************-
+Font
+- ****************************************************/
+/*両端揃え*/
+.justify {
+	text-align: justify;
+	text-justify: inter-ideograph;
+}
+
+/*文字色*/
+.fontRed {
+	color: #ff0000;
+}
+
+/*ウェイト*/
+.bold {
+	font-weight: bold;
+}
+
+.mincho {
+	font-family: "リュウミン R-KL", "Ryumin Regular KL", "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+}
+
+
+@media print {
+	header .pc-fix-nav.js_fix,
+	header .sp-fix-nav {
+		position: static !important;
+	}
+	footer .ft-pagetop .pagetop {
+		display: none !important;
+	}
+}

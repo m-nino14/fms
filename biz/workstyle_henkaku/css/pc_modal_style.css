@@ -1,0 +1,108 @@
+@charset "utf-8";
+/*****************************************************-
+Font
+- ****************************************************/
+/*基本フォント*/
+body {
+	font-size: 13px;
+	font-family: 'Noto Sans Japanese', sans-serif;
+	line-height: 1.55;
+	*font-size: small; /* Win IE7およびWin IE6標準準拠モード向け */
+	*font: x-small; /* Win IE 5-5.5､6(後方互換モード)向け */
+	color: #333;
+	-webkit-text-size-adjust: 100%;
+}
+.is_ie body {
+	font-size: small;
+	*font-size: small;
+	*font: x-small;
+}
+
+table {
+	font-size: inherit; /* モダンブラウザ向け */
+	font: 100%; /* Win IE 5-5.5､6(後方互換モード)向け */
+}
+
+pre,code,kbd,samp,tt {
+	font-family: monospace;
+	*font-size: 108%; /* Win IE全般向け */
+	line-height: 100%;
+}
+
+
+.roboto {
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+.sp_br{display: none;}
+
+/*相対文字サイズ*/
+.xx-small {
+	font-size: 77%; /*10px*/
+}
+.x-small {
+	font-size: 85%; /*11px*/
+}
+.small {
+	font-size: 93%; /*12px*/
+}
+.large {
+	font-size: 108%; /*14px*/
+}
+.x-large {
+	font-size: 116%; /*15px*/
+}
+.xx-large {
+	font-size: 123.1%; /*16px*/
+}
+.xxx-large {
+	font-size: 131%; /*17px*/
+}
+.xxxx-large {
+	font-size: 138.5%; /*18px*/
+}
+
+/*
+9px  = 70%
+10px = 77%
+11px = 85%
+12px = 93%
+13px = 100%
+14px = 108%
+15px = 116%
+16px = 123.1%
+17px = 131%
+18px = 138.5%
+19px = 146.5%
+20px = 153.9%
+21px = 161.6%
+22px = 167%
+23px = 174%
+24px = 182%
+25px = 189%
+26px = 197%
+
+30px = 231%
+*/
+
+.box{
+	width: 800px;
+	margin: 60px auto 0;
+}
+.box img{
+	width: 100%;
+}
+.box .inner{
+	padding: 35px 0px 50px;
+}
+.box .btn{
+	text-align: center;
+	width: 400px;
+	margin: 0 auto;
+}
+
+.box p.txt{
+	font-size: 167%;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 40px;
+}

@@ -1,0 +1,57 @@
+/*****************************************************-
+CSS Document : SP用
+- ****************************************************/
+
+/*****************************************************-
+header product-nav
+- ****************************************************/
+
+.product-nav .product-nav-open {
+	font-size: 1.5rem;
+	position: relative;
+	padding:24px 120px 24px 12px;
+	background-color: #FFF;
+	border-bottom:solid 1px #cecece;
+	cursor: pointer;
+	color:#333;
+}
+.product-nav .product-nav-open p{font-size: 1.8rem;}
+.product-nav .product-nav-open p.product-nav-menu{ font-size:1.5rem;}
+
+.product-nav-menu {
+	position:absolute;
+	top: 50%;
+	margin-top: -11px;
+	right: 12px;
+	width: 80px;
+	padding:5px 8px 7px;
+	background-color:#d22626;
+	color:#fff;
+	border-radius: 3px;
+}
+.product-nav-menu:before{
+	content:"メニュー";
+}
+
+.product-nav .product-nav-open .product-nav-menu:after {
+	position:absolute;
+	top: 5px;
+	right:8px;
+    content: '';
+    display: block;
+    width: 8px;
+    height: 8px;
+    margin: 0 0 0 15px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.product-nav .product-nav-open.js_open .product-nav-menu:after{
+	top: 10px;
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg);
+}
