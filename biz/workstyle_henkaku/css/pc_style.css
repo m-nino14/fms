@@ -4517,21 +4517,25 @@ main.low{
 	overflow: hidden;
 	text-align: center;
 }
-
+.btnList ul{
+	width: 980px;
+	margin: 0 auto -20px;;
+}
 .btnList li{
 	display: inline-block;
 	*display: inline;
 	*zoom:1;
-	width: 226px;
+	width: 311px;
 	position: relative;
 	margin-left: 20px;
+	margin-bottom: 20px;
 	line-height: 1.4;
 }
 .btnList li img{
 	width: 100%;
 	height: auto;
 }
-.btnList li:first-child{margin-left: 0;}
+.btnList li:first-child,.btnList li:nth-child(4){margin-left: 0;}
 .btnList li a{text-decoration: none; color: #333;}
 .btnList li span{display: block; padding-top: 10px; font-size: 108%;}
 .btnList li a div{ position: relative; box-sizing: border-box;}
@@ -4556,6 +4560,9 @@ main.low{
     top: -1px;
     width: 0px;
 }
+.btnList li:nth-child(4) .change-border01::after {height: 1px;}
+.btnList li:nth-child(5) .change-border01::after {height: 1px;}
+
 /* 右下へ配置 */
 .change-border01::before {
   bottom: -1px;
@@ -5651,3 +5658,24 @@ main.low{
 	font-size: 108%;
 	margin-bottom: 20px;
 }
+
+/*----------------------
+		investigation
+-----------------------*/
+.investigation  h2{
+	border-bottom: 0px !important;
+}
+.investigation .cont{
+	padding-top: 40px;
+}
+.investigation .cont .imgWrap{
+	background-color: #fff;
+	padding: 50px 40px 60px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.investigation .cont .imgWrap h3{
+	font-size: 138.5% !important;
+	margin-bottom: 35px !important;
+}
+.investigation .cont .imgWrap h3:after{display: none;}
